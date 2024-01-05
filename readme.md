@@ -46,7 +46,7 @@ kubectl get pods
 kubectl get services
 ```
 
-
+![Deployement status](images/status.png "Deployment status")
 
 ## Scaling the application
 To scale the application, you can update the `replicaCount` in the `values.yaml` file or use the Horizontal Pod Autoscaler (HPA) if configured.

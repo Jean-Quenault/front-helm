@@ -57,7 +57,7 @@ To update the application, make changes to the Helm chart and upgrade the releas
 helm upgrade [release-name] ./
 ```
 
-![Front on google Chrome with load balancer URL](images/front.png "Front")
+![Front on Google Chrome with load balancer URL](images/front.png "Front")
 
 ## Troubleshooting
 - **Pods in pending state**: Check for resource limits, node availability, or taints in the cluster.

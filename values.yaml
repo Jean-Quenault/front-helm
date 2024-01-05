@@ -9,6 +9,10 @@ service:
   type: ClusterIP
   port: 80
 
+service:
+  type: LoadBalancer
+  port: 80
+
 autoscaling:
   enabled: true
   minReplicas: 2
